@@ -1,0 +1,31 @@
+{
+  "name": "mobile-first-media-queries-splitter-webpack-plugin",
+  "version": "1.0.2",
+  "author": "Gal Nahum",
+  "description": "A Webpack plugin that splits your CSS main file into several CSS files based on media queries sizes, and automatically inject them into your index.html by the current media queries Mobile-First loading order approach.",
+  "homepage": "https://github.com/GalNahum/mobile-first-media-queries-splitter-webpack-plugin",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm version patch"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "mediaquery",
+    "extract",
+    "split",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GalNahum/mobile-first-media-queries-splitter-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GalNahum/mobile-first-media-queries-splitter-webpack-plugin/issues"
+  },
+  "dependencies": {
+    "css-parse": "^2.0.0",
+    "css-stringify": "^2.0.0"
+  }
+}
